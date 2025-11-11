@@ -1,0 +1,32 @@
+/* Base styles for all containers and items */
+.container {
+  display: flex; /* Activate Flexbox on all containers */
+  border: 2px solid darkgray;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+.item {
+  background-color: #3cb4e7;
+  color: white;
+  padding: 15px;
+  margin: 5px;
+  width: 50px;
+  text-align: center;
+}
+
+/* Container 1: Horizontal Spacing */
+.container-1 {
+  height: 100px;
+  /* Distributes items with equal space around them */
+  justify-content: space-around; 
+  align-items: flex-start; /* Keeps them at the top */
+}
+
+/* Container 2: Vertical Centering */
+.container-2 {
+  height: 200px; 
+  justify-content: flex-start; /* Keeps them to the left */
+  /* Centers items vertically within the container */
+  align-items: center; 
+}
