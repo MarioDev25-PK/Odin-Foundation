@@ -1,0 +1,6 @@
+/* This rule targets the <h2> element */
+h2 {
+  color: green;
+  font-style: italic;
+  border: 2px solid green;
+}
