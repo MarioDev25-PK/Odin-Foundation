@@ -1,0 +1,14 @@
+/* Style to make block and inline differences visible */
+.block-box {
+  background-color: lightcoral;
+  border: 1px solid red;
+  /* Block elements take 100% width by default */
+}
+
+.inline-box {
+  background-color: lightblue;
+  border: 1px solid blue;
+  /* Inline elements only take the width they need */
+  padding: 5px; 
+  margin: 10px; 
+}
