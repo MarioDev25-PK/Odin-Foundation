@@ -1,0 +1,23 @@
+/* Styling for the entire body */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Absolute Unit: Pixels (px) */
+.pixel-box {
+  background-color: lightblue;
+  width: 300px; /* Fixed size, regardless of screen size */
+  height: 100px;
+  margin: 20px auto;
+  border: 1px solid blue;
+}
+
+/* Relative Unit: Viewport Width (vw) */
+.viewport-box {
+  background-color: lightgreen;
+  width: 50vw; /* Takes up 50% of the screen width */
+  height: 100px;
+  margin: 20px auto;
+  border: 1px solid green;
+}
