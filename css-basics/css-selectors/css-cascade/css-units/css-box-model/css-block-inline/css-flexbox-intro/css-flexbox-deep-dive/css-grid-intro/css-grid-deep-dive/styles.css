@@ -1,0 +1,28 @@
+/* 1. Styling the Grid Container (Defining a 3x3 layout) */
+.grid-container {
+  display: grid; 
+  height: 400px;
+  background-color: #f4f4f4;
+  border: 2px solid darkgray;
+
+  /* Creates 3 equal-width columns and 3 equal-height rows */
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+/* 2. Base Styling for Items */
+.grid-item {
+  background-color: #3e7ee7;
+  color: white;
+  padding: 15px;
+  border: 1px solid white;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* 3. Spanning the Header Item */
+.item-1 {
+  background-color: #2a5a9d;
+  /* Start at column line 1 and end at column line 3 (or span 2) */
+  grid-column: 1 / span 2; 
+}
