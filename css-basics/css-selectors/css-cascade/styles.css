@@ -1,0 +1,4 @@
+/* This rule targets the paragraph with a Class Selector */
+.cascade-example {
+  color: red;
+}
