@@ -1,0 +1,18 @@
+/* 1. Element Selector (targets the tag name) */
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: purple;
+}
+
+/* 2. ID Selector (targets a single #ID) */
+#unique-paragraph {
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+/* 3. Class Selector (targets all .classes) */
+.callout-text {
+  color: blue;
+  font-style: italic;
+}
