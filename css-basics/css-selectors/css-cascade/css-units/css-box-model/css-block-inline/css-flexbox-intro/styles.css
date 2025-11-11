@@ -1,0 +1,20 @@
+/* 1. Styling the Flex Container */
+.flex-container {
+  display: flex; /* THIS IS THE KEY: Activates Flexbox */
+  background-color: #f4f4f4;
+  height: 200px;
+  border: 2px solid darkgray;
+
+  /* Optional: Aligns items in the center horizontally */
+  justify-content: center; 
+}
+
+/* 2. Styling the Flex Items */
+.flex-item {
+  background-color: #3cb4e7;
+  color: white;
+  margin: 10px;
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+}
