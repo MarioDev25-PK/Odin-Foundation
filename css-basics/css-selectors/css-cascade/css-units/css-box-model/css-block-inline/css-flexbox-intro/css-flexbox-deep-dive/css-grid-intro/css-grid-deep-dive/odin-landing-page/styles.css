@@ -39,4 +39,56 @@ body {
     text-decoration: none; /* Remove underline */
     color: #E5E7EB; /* Lighter color for link text */
     font-size: 18px;
+}/* Hero Section Styles */
+.hero {
+    background-color: #1F2937; /* Same dark color as the header */
+    color: white;
+    padding: 100px 150px; /* Large top/bottom padding for a tall section */
+    
+    /* FLEXBOX: Arranges hero content and image side-by-side */
+    display: flex;
+    justify-content: space-between;
+    gap: 52px; /* Space between the text and the image */
+}
+
+/* Hero Content (Left side text) */
+.hero-content {
+    flex-basis: 50%; /* Make the content take up half the width */
+}
+
+/* Hero Main Heading */
+.hero-main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+/* Hero Secondary Text */
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 16px;
+}
+
+/* Button Style */
+.hero-button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    padding: 8px 32px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Placeholder Box (Right side image) */
+.hero-image-placeholder {
+    flex-basis: 50%; /* Make the image box take up half the width */
+    background-color: #6d747e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
 }
