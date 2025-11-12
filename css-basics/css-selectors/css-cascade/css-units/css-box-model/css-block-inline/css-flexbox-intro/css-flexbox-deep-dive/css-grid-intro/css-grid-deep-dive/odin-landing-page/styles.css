@@ -1,0 +1,42 @@
+/* Base Styles: Remove default margin/padding from the body */
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex; /* We will make the whole body a column flex container */
+    flex-direction: column;
+}/* Header Styles */
+.header {
+    background-color: #1F2937; /* Dark background color */
+    color: white; /* Light text color */
+    padding: 15px 150px; /* Padding top/bottom and left/right */
+    
+    /* FLEXBOX: Arrange items horizontally and put space between them */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center them vertically */
+}
+
+/* Logo Style */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+/* Navigation Links Style */
+.header-links {
+    /* FLEXBOX: Arrange list items horizontally */
+    display: flex;
+    list-style: none; /* Remove bullet points */
+    gap: 24px; /* Space between links */
+    padding: 0;
+    margin: 0;
+}
+
+/* Link Text Style */
+.header-links a {
+    text-decoration: none; /* Remove underline */
+    color: #E5E7EB; /* Lighter color for link text */
+    font-size: 18px;
+}
